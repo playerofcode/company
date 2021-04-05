@@ -48,8 +48,8 @@
 
           <li class="drop-down"><a href="">About</a>
             <ul>
-              <li><a href="about.php">About Us</a></li>
-              <li><a href="team.php">Team</a></li>
+              <li><a href="<?php echo base_url('home/about');?>">About Us</a></li>
+              <li><a href="<?php echo base_url('home/team');?>">Team</a></li>
               <li><a href="testimonials.php">Testimonials</a></li>
               <li class="drop-down"><a href="#">Deep Drop Down</a>
                 <ul>
@@ -63,11 +63,11 @@
             </ul>
           </li>
 
-          <li><a href="services.php">Services</a></li>
-          <li><a href="portfolio.php">Portfolio</a></li>
+          <li><a href="<?php echo base_url('home/services'); ?>">Services</a></li>
+          <li><a href="<?php echo base_url('home/portfolio');?>">Portfolio</a></li>
           <li><a href="pricing.php">Pricing</a></li>
-          <li><a href="blog.php">Blog</a></li>
-          <li><a href="contact.php">Contact</a></li>
+          <li><a href="<?php echo base_url('home/blog'); ?>">Blog</a></li>
+          <li><a href="<?php echo base_url('home/contact'); ?>">Contact</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->

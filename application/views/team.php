@@ -1,4 +1,3 @@
-<?php include "header.php";?>
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
@@ -8,7 +7,7 @@
         <div class="d-flex justify-content-between align-items-center">
           <h2>Team</h2>
           <ol>
-            <li><a href="index.php">Home</a></li>
+            <li><a href="<?php echo base_url();?>">Home</a></li>
             <li>Team</li>
           </ol>
         </div>
@@ -30,7 +29,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <img src="<?php echo base_url();?>assets/img/team/team-1.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="icofont-twitter"></i></a>
                   <a href=""><i class="icofont-facebook"></i></a>
@@ -48,7 +47,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <img src="<?php echo base_url();?>assets/img/team/team-2.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="icofont-twitter"></i></a>
                   <a href=""><i class="icofont-facebook"></i></a>
@@ -66,7 +65,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="200">
               <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <img src="<?php echo base_url();?>assets/img/team/team-3.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="icofont-twitter"></i></a>
                   <a href=""><i class="icofont-facebook"></i></a>
@@ -84,7 +83,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <img src="<?php echo base_url();?>assets/img/team/team-4.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="icofont-twitter"></i></a>
                   <a href=""><i class="icofont-facebook"></i></a>
@@ -105,4 +104,3 @@
     </section><!-- End Our Team Section -->
 
   </main><!-- End #main -->
-<?php include "footer.php";?>

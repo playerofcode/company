@@ -1,4 +1,3 @@
-<?php include "header.php";?>
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
@@ -245,4 +244,3 @@
     </section><!-- End Blog Section -->
 
   </main><!-- End #main -->
-<?php include "footer.php";?>

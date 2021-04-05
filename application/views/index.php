@@ -1,5 +1,3 @@
-<?php include "header.php";?>
-
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
@@ -365,4 +363,3 @@
     </section><!-- End Our Clients Section -->
 
   </main><!-- End #main -->
-<?php include "footer.php";?>
