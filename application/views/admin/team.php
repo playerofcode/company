@@ -5,12 +5,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Blog</h1>
+            <h1>Team </h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="<?php echo base_url('admin/welcome');?>">Home</a></li>
-              <li class="breadcrumb-item active">Add Blog</li>
+              <li class="breadcrumb-item active">Add Team</li>
             </ol>
           </div>
         </div>
@@ -29,20 +29,20 @@
         <?php endif;?>
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Add Blog</h3>
+                <h3 class="card-title">Add Team</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form action="<?php echo base_url('admin/add_blog');?>" method="POST" enctype="multipart/form-data">
+              <form action="<?php echo base_url('admin/add_team');?>" method="POST" enctype="multipart/form-data">
                 <div class="card-body">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Blog Title</label>
-                    <input type="text" class="form-control" name="title" value="<?php echo set_value('title');?>" placeholder="Enter Blog Title">
-                    <p><?php echo form_error('title'); ?></p>
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="text" class="form-control" name="name" value="<?php echo set_value('name');?>" placeholder="Enter Name">
+                    <p><?php echo form_error('name'); ?></p>
                   </div>
                   
                   <div class="form-group">
-                    <label for="exampleInputFile">Blog Image</label>
+                    <label for="exampleInputFile">Image</label>
                     <div class="input-group">
                       <div class="custom-file">
                         <input type="file" class="custom-file-input" id="exampleInputFile" name="image">
@@ -54,17 +54,36 @@
                     </div>
                       <p><?php if(isset($image)){echo $image;} ?></p>
                   </div>
+                   <div class="form-group">
+                    <label for="exampleInputEmail1">Designation</label>
+                    <input type="text" class="form-control" name="designation" value="<?php echo set_value('designation');?>" placeholder="Enter Designation">
+                    <p><?php echo form_error('designation'); ?></p>
+                  </div>
                   <div class="form-group">
-                    <label for="exampleInputPassword1">Blog Description</label>
-                    <textarea class="form-control" placeholder="Blog Description Here..." name="description"><?php echo set_value('description');?></textarea>
-                    <p><?php echo form_error('description'); ?></p>
-
+                    <label for="exampleInputEmail1">Twitter Link</label>
+                    <input type="url" class="form-control" name="twitter" value="<?php echo set_value('twitter');?>" placeholder="Enter Designation">
+                    <p><?php echo form_error('twitter'); ?></p>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Facebook Link</label>
+                    <input type="url" class="form-control" name="facebook" value="<?php echo set_value('facebook');?>" placeholder="Enter Designation">
+                    <p><?php echo form_error('facebook'); ?></p>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Instagram Link</label>
+                    <input type="url" class="form-control" name="instagram" value="<?php echo set_value('instagram');?>" placeholder="Enter Designation">
+                    <p><?php echo form_error('instagram'); ?></p>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">LinkedIn Link</label>
+                    <input type="url" class="form-control" name="linkedin" value="<?php echo set_value('linkedin');?>" placeholder="Enter Designation">
+                    <p><?php echo form_error('linkedin'); ?></p>
                   </div>
                 </div>
                 <!-- /.card-body -->
 
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Add Blog</button>
+                  <button type="submit" class="btn btn-primary">Add Member</button>
                 </div>
               </form>
             </div>
